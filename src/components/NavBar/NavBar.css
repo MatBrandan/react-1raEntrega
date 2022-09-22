@@ -1,0 +1,22 @@
+nav{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 30px;
+}
+
+h1{
+    font-style: italic;
+    
+}
+button{
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 10px;
+    background-color: #C30011;
+    color: #F2F5FA;
+    padding: 15px;
+
+}
+button:hover{
+    background-color: #A90015;
+}
