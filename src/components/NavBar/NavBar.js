@@ -1,16 +1,16 @@
-import './NavBar.css'
+// import './NavBar.css'
 import CartWidget from '../CartWidget/CartWidget'
 
 const NavBar = () => {
     return (
-        <nav>
+        <nav className="navbar justify-content-between" style={{backgroundColor: "#A90015"}}>
             <div>
-                <h1>Tienda Online</h1>
+                <h1 style={{color: "#F2F5FA"}} >Tienda Online</h1>
             </div>
             <div>
-                <button>Termotanques</button>
-                <button>Estufas</button>
-                <button>Cocinas</button>
+                <button className='btn btn-secondary mx-5'>Termotanques</button>
+                <button className='btn btn-secondary mx-5'>Estufas</button>
+                <button className='btn btn-secondary mx-5'>Cocinas</button>
             </div>
             <div>
                 <CartWidget />

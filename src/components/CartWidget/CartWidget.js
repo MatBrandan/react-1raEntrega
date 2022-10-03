@@ -2,8 +2,8 @@ import cart from './assets/cart.jpg'
 
 const CartWidget = () => {
     return (
-        <div>
-            <img src={cart} style={{height:50}} alt='cart'/>
+        <div className='me-lg-5 me-sm-1'>
+            <img src={cart} style={{height:35}} alt='cart'/>
             1
         </div>
     )
